@@ -422,16 +422,15 @@ header a.header-email span {
     max-width: 330px;
 }
 
-.services .service-list .service-card .service-arrow {
-    font-size: 24px;
-    text-align: right;
-    font-family: 'DM Mono', monospace;
-    transition: ease-in-out 0.4s;
+.services .service-list .service-card .service-imgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.services .service-list .service-card:hover .service-arrow {
-    color: #ef7355;
-} 
+.services .service-list .service-card .service-imgs img {
+    width: 24px;
+}
 
 /* Projects */
 .projects {
@@ -903,7 +902,7 @@ footer a {
         margin-top: 8px;
     }
 
-    .services .service-list .service-card .service-arrow {
+    .services .service-list .service-card .service-imgs {
         grid-column: 3;
         grid-row: 1;
     }
