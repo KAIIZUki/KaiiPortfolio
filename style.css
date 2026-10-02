@@ -396,6 +396,8 @@ header a.header-email span {
     grid-template-columns: 8% 32% 1fr 5%;
     padding: 27px 0;
     transition: ease-in-out 0.4s;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .services .service-list .service-card:hover {
@@ -415,6 +417,7 @@ header a.header-email span {
     font-size: clamp(1.5rem, 3vw, 2.5rem);
     font-weight: 600;
     letter-spacing: -.96px;
+    color: #17211F;
 }
 
 .services .service-list .service-card p {
